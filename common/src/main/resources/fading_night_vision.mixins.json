@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.euphony.fading_night_vision.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+    "GameRendererMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

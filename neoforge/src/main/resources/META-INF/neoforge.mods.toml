@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "fading_night_vision"
+version = "${version}"
+displayName = "Fading Night Vision"
+authors = "ENC_Euphony"
+description = '''
+Makes night vision fade out instead of flicker.
+'''
+logoFile = "icon.png"
+
+[[dependencies.fading_night_vision]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.fading_night_vision]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[dependencies.fading_night_vision]]
+modId = "yet_another_config_lib_v3"
+mandatory = true
+type = "optional"
+versionRange = "[3.9,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[mixins]]
+config = "fading_night_vision.mixins.json"

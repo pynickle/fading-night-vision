@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "fading_night_vision",
+  "version": "${version}",
+  "name": "Fading Night Vision",
+  "description": "Makes night vision fade out instead of flicker.",
+  "authors": [
+    "ENC_Euphony"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/fading_night_vision/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.euphony.fading_night_vision.fabric.FadingNightVisionFabric"
+    ],
+    "client": [
+      "com.euphony.fading_night_vision.fabric.client.FadingNightVisionFabricClient"
+    ],
+    "modmenu": [
+      "com.euphony.fading_night_vision.fabric.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "fading_night_vision.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "~26.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "yet_another_config_lib_v3": ">=3.9",
+    "modmenu": "*"
+  }
+}

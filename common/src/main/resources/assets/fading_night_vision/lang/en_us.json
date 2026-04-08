@@ -1,0 +1,9 @@
+{
+  "text.fading_night_vision.help.missing": "§cCannot open config screen",
+  "text.fading_night_vision.desc.help.missing": "§7Install YACL to access the config in-game.",
+  "yacl3.config.fading_night_vision:config": "Fading Night Vision",
+  "yacl3.config.fading_night_vision:config.category.client": "Client",
+  "yacl3.config.fading_night_vision:config.category.client.group.fading_night_vision": "Fading Out Night Vision",
+  "yacl3.config.fading_night_vision:config.fadingOutDuration": "Fading Out Duration",
+  "yacl3.config.fading_night_vision:config.fadingOutDuration.desc": "Duration of the fade-out effect."
+}

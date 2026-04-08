@@ -1,0 +1,9 @@
+{
+  "text.fading_night_vision.help.missing": "§c 无法打开配置界面",
+  "text.fading_night_vision.desc.help.missing": "§7 安装 YACL 模组以在游戏内访问配置。",
+  "yacl3.config.fading_night_vision:config": "淡出夜视",
+  "yacl3.config.fading_night_vision:config.category.client": "客户端",
+  "yacl3.config.fading_night_vision:config.category.client.group.fading_night_vision": "淡出夜视",
+  "yacl3.config.fading_night_vision:config.fadingOutDuration": "淡出持续时间",
+  "yacl3.config.fading_night_vision:config.fadingOutDuration.desc": "夜视效果淡出的持续时间。"
+}
